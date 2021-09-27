@@ -20,7 +20,7 @@ filebytes = BytesIO(
 
 #Extrai o conteúdo do arquivo zip
 myzip = zipfile.ZipFile(filebytes)
-myzip.extractall('./enade2019')
+myzip.extractall('./enem2019')
 
 ##Verifica os itens baixados
 enem = pd.read_csv(
